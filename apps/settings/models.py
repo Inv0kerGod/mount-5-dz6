@@ -3,7 +3,8 @@ from django.db import models
 # Create your models here.
 class Settings(models.Model):
     logo = models.ImageField(
-        upload_to="logo/"
+        upload_to="logo/",
+        null=True, blank=True
     )
     title = models.CharField(max_length=255)
     description = models.TextField()

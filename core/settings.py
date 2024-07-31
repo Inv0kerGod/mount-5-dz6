@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     
     # apps
     "apps.settings",
+    "apps.news",
 ]
 
 MIDDLEWARE = [
