@@ -43,10 +43,12 @@ INSTALLED_APPS = [
 
     # rest
     'rest_framework',
+    'drf_yasg',
     
     # apps
     "apps.settings",
     "apps.news",
+    "apps.task",
 ]
 
 MIDDLEWARE = [
