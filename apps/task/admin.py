@@ -4,4 +4,4 @@ from .models import *
 # Register your models here.
 @admin.register(Task)
 class TaskAdmin(admin.ModelAdmin):
-    list_display = ['id', 'title', 'completed']
+    list_display = ['id', 'user', 'title', 'completed']
