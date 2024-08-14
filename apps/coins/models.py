@@ -21,7 +21,6 @@ class GeekCoin(models.Model):
         last_month_start = last_month.replace(day=1)
         
         if self.last_update < last_month_start:
-            # Сжечь монеты
             self.balance = 0
             self.save()
 
