@@ -46,6 +46,8 @@ urlpatterns = [
     path('api/v1/news/', include('apps.news.urls')),
     path('api/v1/', include('apps.task.urls')),
     path('api/v1/users/', include('apps.users.urls')),
+    path('api/v1/coins/', include('apps.coins.urls')),
+
 
 #   drf_yasg
     path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
